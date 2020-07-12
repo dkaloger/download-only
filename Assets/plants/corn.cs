@@ -38,6 +38,7 @@ public class corn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        tr.position = new Vector3(tr.position.x, 1.07f, tr.position.z);
         tr.localScale = new Vector3(currentgrowth / growth_coeficient, currentgrowth / growth_coeficient, currentgrowth / growth_coeficient);
         tr = gameObject.GetComponent<Transform>();
 

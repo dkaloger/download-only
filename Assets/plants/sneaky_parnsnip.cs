@@ -58,7 +58,7 @@ public class sneaky_parnsnip : MonoBehaviour
     {
         if (Mathf.Approximately(transform.position.x, wander.x))
             {
-            wander = new Vector3(Random.Range(15, 97), -2.33f, Random.Range(18, 100));
+            wander = new Vector3(Random.Range(15, 97), -2.86f, Random.Range(18, 100));
         }
         if (currentgrowthstate == 3)
         {
